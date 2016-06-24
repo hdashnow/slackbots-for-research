@@ -1,5 +1,5 @@
 # slackbots-for-research
-A collection of Slackbot scripts for research groups using htpp://Slack.com
+A collection of Slackbot scripts for research groups using http://Slack.com
 
 
 
