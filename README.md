@@ -9,14 +9,27 @@ Python bots are based on: https://github.com/lins05/slackbot
 
 Also uses the official Slackbot client https://github.com/slackhq/python-slackclient
 
-### Crossbot requirements:
+### Requirements:
+
+- Python 2.7
+- slackbot
+- slackclient
 
 #### Set up
 
-- pip install slackbot
-- pip install slackclient
+To set up using [Conda](http://conda.pydata.org/miniconda.html):  
 
-Create a file in the `python/` directory called `slackbot_settings.py`.
+```bash
+conda create --name slackbot --python=2.7  
+source activate slackbot  
+pip install slackbot  
+pip install slackclient  
+```
+
+Create a file in the same directory as the python script for that bot, 
+called `slackbot_settings.py`.
+For example `python/crossbot/`. 
+
 It should contain the following:
 
 ```python
